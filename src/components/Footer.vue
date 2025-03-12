@@ -29,7 +29,7 @@
             <a href="https://www.linkedin.com/in/manasses-kuria-9b43211bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer-icon" target="_blank">
               <i class="bi bi-linkedin">Linkedin</i>
             </a>
-            <a href="https://github.com/Kingkush001" class="footer-icon" target="_blank">Github
+            <a href="https://github.com/Mkuria8" class="footer-icon" target="_blank">Github
               <i class="bi bi-github"></i>
             </a>
           </div>
@@ -56,8 +56,8 @@ export default {
 <style scoped>
 /* Footer Styles */
 .footer {
-  background-color: #000; /* Black background */
-  color: #fff; /* White text */
+  background-color: #000000; /* Black background */
+  color: #fff; /*  text color*/
 }
 
 /* Faded Blue Separator */
@@ -66,12 +66,12 @@ export default {
   width: 80%;
   margin: 0 auto 30px;
   border-radius: 2px;
-  background: linear-gradient(to right, transparent, #0d6efd, transparent);
+  background: linear-gradient(to right, transparent, #3801ff, transparent);
 }
 
 /* Headings */
 .footer-heading {
-  color: #0d6efd; /* Blue color */
+  color: #0d6efd; 
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 15px;
@@ -84,7 +84,7 @@ export default {
 }
 
 .footer-link:hover {
-  color: #0d6efd; /* Blue on hover */
+  color: #0d6efd; 
   text-decoration: underline;
 }
 
@@ -96,7 +96,7 @@ export default {
 }
 
 .footer-icon:hover {
-  color: #0d6efd; /* Blue on hover */
+  color: #0d6efd; 
 }
 
 /* Copyright Text */

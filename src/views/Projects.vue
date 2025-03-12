@@ -1,6 +1,6 @@
 <template>
   <!-- Portfolio Section -->
-  <section id="portfolio" class="portfolio py-5">
+  <section id="projects" class="projects py-5">
     <div class="container">
       <h2 class="text-center mb-4 text-white">My Projects</h2>
       <div class="row">
@@ -52,7 +52,7 @@ export default {
           title: "Bluewave Website",
           description: "Business Website for Bluewave",
           image: "./images/bluewave.PNG",
-          link: "https://bluewave.codecurehub.com/", // Replace with actual link
+          link: "https://bluewave.codecurehub.com/",
         },
         {
           title: "CodeCure Hub Website",
@@ -74,7 +74,7 @@ export default {
 
 <style scoped>
 /* Background */
-#portfolio {
+#projects {
   background-color: #000; /* Black background */
 }
 

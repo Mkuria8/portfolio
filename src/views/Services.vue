@@ -4,9 +4,7 @@
     <div class="container">
       <!-- Top Separator -->
       <hr class="service-separator" />
-
       <h2 class="text-center mb-4 text-primary fw-bold">My Services</h2>
-
       <div class="row">
         <div class="col-md-6 mb-4" v-for="(service, index) in services" :key="index">
           <div class="service-card text-center shadow-sm p-4">
@@ -18,13 +16,11 @@
           </div>
         </div>
       </div>
-
       <!-- Bottom Separator -->
       <hr class="service-separator" />
     </div>
   </section>
 </template>
-
 <script>
 export default {
   name: "Services",

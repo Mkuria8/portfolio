@@ -5,9 +5,7 @@
       <div class="container">
         <!-- Top Separator -->
         <hr class="testimonial-separator" />
-
         <h2 class="text-center mb-4">What My Clients Say</h2>
-
         <div class="row">
           <div class="col-md-4 mb-4" v-for="(testimonial, index) in testimonials" :key="index">
             <div class="card testimonial-card shadow-sm p-4 text-center">
@@ -63,7 +61,7 @@ export default {
 
 /* Heading */
 h2 {
-  color: #0d6efd; /* Blue Heading */
+  color: #0d6efd; 
 }
 
 /* Testimonial Card */

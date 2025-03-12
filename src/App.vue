@@ -2,7 +2,7 @@
   <Navbar />
   <router-view />
   <div id="app">
-    <!-- Skills component added here -->
+    
     <Skills />
     <Projects />
     <Services />

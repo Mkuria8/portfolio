@@ -85,11 +85,11 @@ export default {
           alert("✅ Message sent successfully!");
           form.value = { name: "", email: "", message: "" };
         } else {
-          alert("❌ Something went wrong. Try again later.");
+          alert(" Something went wrong. Try again later.");
         }
       } catch (error) {
         console.error("Error:", error);
-        alert("❌ Failed to send the message. Please try again.");
+        alert(" Failed to send the message. Please try again.");
       }
       loading.value = false;
     };
@@ -116,7 +116,7 @@ h2 {
 
 /* Form Styling */
 form {
-  background-color: rgba(255, 255, 255, 0.05); /* Slightly transparent black */
+  background-color: rgba(14, 3, 3, 0.05); /* Slightly transparent black */
   border-radius: 10px;
   padding: 30px;
   box-shadow: 0 10px 30px rgba(13, 110, 253, 0.3); /* Blue glow effect */

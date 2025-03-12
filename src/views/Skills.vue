@@ -4,9 +4,7 @@
     <div class="container">
       <!-- Top Separator -->
       <div class="separator"></div>
-
       <h2 class="text-center mb-4 text-blue">My Skills</h2>
-
       <div class="row">
         <!-- Programming Languages -->
         <div class="col-md-6 mb-4">
@@ -16,29 +14,28 @@
               <ul class="list-unstyled">
                 <li> JavaScript</li>
                 <li> Python</li>
-                <li> Java</li>
-                <li> C++</li>
+                <li> Php</li>
               </ul>
             </div>
           </div>
         </div>
-
         <!-- Web Technologies -->
         <div class="col-md-6 mb-4">
           <div class="card bg-black text-white border-blue">
             <div class="card-body">
               <h4 class="card-title text-blue">Web Technologies</h4>
               <ul class="list-unstyled">
-                <li> HTML5</li>
-                <li> CSS3</li>
+                <li> Bootstrap</li>
+                <li> Tailwindcss</li>
                 <li> Vue.js</li>
                 <li> React.js</li>
+                <li> Django</li>
+                <li> Laravel</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-
       <!-- Technical Proficiency -->
       <h4 class="text-center mb-4 text-blue">Technical Proficiency</h4>
       <div class="row">
@@ -74,11 +71,11 @@
             </div>
           </div>
         </div>
-        
+            
         <div class="col-md-6 mb-3">
           <div class="card bg-black text-white border-blue">
             <div class="card-body">
-              <strong class="text-blue">HTML & CSS</strong>
+              <strong class="text-blue">Php</strong>
               <div class="progress">
                 <div class="progress-bar bg-blue" style="width: 95%">95%</div>
               </div>
@@ -89,7 +86,6 @@
 
       <!-- Bottom Separator -->
       <div class="separator mt-5"></div>
-
     </div>
   </section>
 </template>
@@ -117,7 +113,7 @@ export default {
 
 /* Blue text */
 .text-blue {
-  color: #0d6efd; /* Bootstrap primary blue */
+  color: #0d6efd; 
 }
 
 /* Progress bar styling */
@@ -135,12 +131,12 @@ export default {
   box-shadow: 0 0 10px rgba(13, 110, 253, 0.3); /* Subtle blue glow */
 }
 
-/* Adjust progress bars */
+
 .bg-blue {
   background-color: #0d6efd !important;
 }
 
-/* Remove unwanted padding from Bootstrap */
+
 .container {
   max-width: 900px;
 }

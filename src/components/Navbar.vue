@@ -2,7 +2,7 @@
   <nav>
     <router-link to="/">Home</router-link>
     <router-link to="/skills">Skills</router-link>
-    <router-link to="/projects">Projects</router-link>
+    <router-link to="/services">Services</router-link>
     <router-link to="/contact">Contact</router-link>
   </nav>
 </template>
@@ -28,12 +28,11 @@ nav a {
 }
 
 nav a:hover {
-  color: #1e90ff; /* Blue hover effect */
+  color: #1e90ff; 
   text-decoration: underline;
 }
 
-/* Add padding to the body to prevent content from being hidden under the fixed navbar */
 body {
-  padding-top: 60px; /* Adjust based on nav height */
+  padding-top: 60px; 
 }
 </style>

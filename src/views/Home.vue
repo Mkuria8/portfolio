@@ -29,7 +29,7 @@
                 Contact Me
               </a>
               <a 
-                href="#portfolio" 
+                href="#projects" 
                 class="btn btn-outline-secondary btn-lg shadow-sm"
                 @mouseover="hoverProjects = true"
                 @mouseleave="hoverProjects = false"
@@ -44,8 +44,6 @@
           <div class="col-md-6 text-center animate__animated animate__fadeInRight">
             <div class="image-wrapper position-relative">
               <img 
-                :src="profile" 
-                alt="Manasses Kuria" 
                 class="img-fluid rounded-circle shadow-lg"
                 width="350"
                 @mouseover="imageHover = true"
@@ -66,6 +64,7 @@
 <script>
 import Skills from '../views/Skills.vue';
 import Projects from '../views/Projects.vue';
+import Services from '../views/Services.vue';
 import Testimonials from '../views/Testimonials.vue';
 import Contact from '../views/Contact.vue';
 import Footer from '../components/Footer.vue';
@@ -73,6 +72,7 @@ import Footer from '../components/Footer.vue';
 export default {
   name: 'Home',
   components: {
+    Services,
     Skills,
     Projects,
     Testimonials,
@@ -81,7 +81,6 @@ export default {
   },
   data() {
     return {
-      profileImage: 'https://via.placeholder.com/400',
       hoverContact: false,
       hoverProjects: false,
       imageHover: false,
