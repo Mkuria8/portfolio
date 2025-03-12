@@ -51,19 +51,19 @@ export default {
         {
           title: "Bluewave Website",
           description: "Business Website for Bluewave",
-          image: "/images/bluewave.PNG",
+          image: "./images/bluewave.PNG",
           link: "https://bluewave.codecurehub.com/", // Replace with actual link
         },
         {
           title: "CodeCure Hub Website",
           description: "A Website for Codecure Hub web development Company.",
-          image: "/images/codecurehub.PNG",
+          image: "./images/codecurehub.PNG",
           link: "https://codecurehub.com/",
         },
         {
           title: "Manyara Club Website",
           description: "A WordPress-based tour and travel booking website.",
-          image: "/images/manyara club.PNG",
+          image: "./images/manyara club.PNG",
           link: "https://manyaratravel.com/",
         },
       ],
