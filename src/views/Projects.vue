@@ -66,6 +66,12 @@ export default {
           image: "./images/manyara club.PNG",
           link: "https://manyaratravel.com/",
         },
+        {
+          title: "Hospital Management System In Django",
+          description: "A Django-based Hospital management System for Hospitals.",
+          image: "./images/hospital.PNG",
+          link: "https://hospital-management-system-in-django.onrender.com/",
+        },
       ],
     };
   },

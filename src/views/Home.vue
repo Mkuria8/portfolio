@@ -11,7 +11,7 @@
           <!-- Left Content -->
           <div class="col-md-6 animate__animated animate__fadeInLeft">
             <h2 class="display-4 fw-bold text-white mb-3">
-              Hi, I'm <span class="text-primary">Manasses Kuria</span>
+              Hi, I'm <span class="text-primary">Manasses Kuria,</span>
               <span>{{ typedText }}</span><span class="cursor">|</span>
             </h2>
             <p class="lead text-light mb-3">
@@ -85,7 +85,7 @@ export default {
       hoverProjects: false,
       imageHover: false,
       typedText: '',
-      textToType: 'I specialize in crafting Solutions that help businesses thrive',
+      textToType: ' ,I specialize in crafting Solutions that help businesses thrive',
       typingIndex: 0,
     };
   },
