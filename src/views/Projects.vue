@@ -72,6 +72,12 @@ export default {
           image: "./images/hospital.PNG",
           link: "https://hospital-management-system-in-django.onrender.com/",
         },
+        {
+          title: "Urbanstore E-commerce project in Laravel",
+          description: "A larave-based e-commerce web application",
+          image: "./images/urbanstore.PNG",
+          link: "https://urbanstore.onrender.com/",
+        },
       ],
     };
   },
