@@ -12,10 +12,10 @@ const routes = [
   { path: '/services', component: Services },
   { path: '/contact', component: Contact },
   { path: '/:pathMatch(.*)*', redirect: '/' }
-  ];
+];
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/portfolio/'),
   routes
 });
 
