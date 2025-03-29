@@ -32,7 +32,7 @@
               <div class="modal-body">
                 <img :src="project.image" class="img-fluid mb-3" :alt="project.title" />
                 <p>{{ project.description }}</p>
-                <a :href="project.link" target="_blank" class="btn btn-blue">Visit Project</a>
+                <a :href="project.link" target="_blank" class="btn btn-red">Visit Project</a>
               </div>
             </div>
           </div>
@@ -49,33 +49,33 @@ export default {
     return {
       projects: [
         {
-          title: "Bluewave Website",
-          description: "Business Website for Bluewave",
-          image: "./images/bluewave.PNG",
-          link: "https://bluewave.codecurehub.com/",
+          title: "Vision to Reality  Events Website",
+          description: "Business Website for Vision to Reality Events",
+          image: "/images/visiontoreality.PNG",
+          link: "https://visiontorealityevents.co.ke/",
         },
         {
           title: "CodeCure Hub Website",
           description: "A Website for Codecure Hub web development Company.",
-          image: "./images/codecurehub.PNG",
+          image: "/images/codecurehub.PNG",
           link: "https://codecurehub.com/",
         },
         {
           title: "Manyara Club Website",
           description: "A WordPress-based tour and travel booking website.",
-          image: "./images/manyara club.PNG",
+          image: "/images/manyara club.PNG",
           link: "https://manyaratravel.com/",
         },
         {
           title: "Hospital Management System In Django",
           description: "A Django-based Hospital management System for Hospitals.",
-          image: "./images/hospital.PNG",
-          link: "https://hospital-management-system-in-django.onrender.com/",
+          image: "/images/hospital.PNG",
+          link: "https://github.com/Mkuria8/Hospital-Management-System-In-Django",
         },
         {
           title: "Urbanstore E-commerce project in Laravel",
           description: "A larave-based e-commerce web application",
-          image: "./images/urbanstore.PNG",
+          image: "/images/urbanstore.PNG",
           link: "https://urbanstore.onrender.com/",
         },
       ],
@@ -105,7 +105,7 @@ export default {
 
 /* Custom Blue Button */
 .btn-blue {
-  background-color: #007bff; /* Bootstrap Primary Blue */
+  background-color: #0004ff; /* Bootstrap Primary Blue */
   color: #fff; /* White text */
   border: none;
   transition: background-color 0.3s ease;
@@ -116,6 +116,6 @@ export default {
 }
 
 .btn-blue:hover {
-  background-color: #0056b3; /* Darker Blue on hover */
+  background-color: #071c7a; /* Darker Blue on hover */
 }
 </style>
